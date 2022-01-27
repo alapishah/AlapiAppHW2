@@ -1,7 +1,5 @@
-var mymap = L.map('mapid').setView([38.6270, 90.1994], 18);
-//https://a.tile.openstreetmap.org/{z}/{x}/{y}.png
-//'http://a.tile.stamen.com/toner/{z}/{x}/{y}.png'
-//https://wiki.openstreetmap.org/wiki/Tile_servers
+var mymap = L.map('mapid').setView([38.6270, -90.1994], 18);
+
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
 	maxZoom: 16
