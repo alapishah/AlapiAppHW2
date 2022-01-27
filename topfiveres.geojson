@@ -70,4 +70,3 @@ var geojsonFeature ={
   ]
 }
 
-marker.bindPopup("<b>Saint Louis!</b><br>I've Got Great Food").openPopup();
