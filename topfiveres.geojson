@@ -1,5 +1,5 @@
 
-var geojsonFeature ={
+{
   "type": "FeatureCollection",
   "features": [
     {
