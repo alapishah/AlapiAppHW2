@@ -1,9 +1,8 @@
 var map = L.map('mapid').setView([37.7749, -122.4194], 13);
 
- L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Copyright: &copy;2012 DeLorme',
-	minZoom: 1,
-	maxZoom: 11
+ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS',
+	maxZoom: 13
 }).addTo(map);
 
   // load GeoJSON from an external file
